@@ -1,0 +1,4 @@
+[package]
+name = "py_supermarket_comparator"
+version = "0.0.1"
+authors = [ "Arturo Volpe <arturovolpe@gmail.com>" ]
