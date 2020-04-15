@@ -1,3 +1,8 @@
+use scrapper::Scrapper;
+
+mod scrapper;
+
 fn main() {
-    println!("Hello, world!");
+    let rh_scrapper = scrapper::RHScrapper {};
+    println!("{}", rh_scrapper.get_products());
 }
